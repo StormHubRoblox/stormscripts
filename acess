@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Tlzada/stormscripts/main/get')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/StormHubRoblox/stormscripts/main/getpremium')))()
 local Player = game.Players.LocalPlayer
 local Window = OrionLib:MakeWindow({Name = "Hub Key System", HidePremium = false, SaveConfig = true, IntroEnable = false})
 
