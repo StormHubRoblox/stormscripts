@@ -636,6 +636,19 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/SKOIXLL/RIVERHUB-SKYH
 })
 
 local Tab = Window:MakeTab({
+	Name = "Car DealerShip Tycoon",
+	Icon = "rbxassetid://11348590078",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Car DealerShip Tycoon (2 EM 1)",
+	Callback = function()
+loadstring(game:HttpGet("https://astronomic.vercel.app"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "NukeCity HUB",
 	Icon = "rbxassetid://11348590078",
 	PremiumOnly = false
