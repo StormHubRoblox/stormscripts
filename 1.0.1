@@ -662,6 +662,19 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/JuninhoOGado/ScriptsS
 })
 
 local Tab = Window:MakeTab({
+	Name = "AntLag",
+	Icon = "rbxassetid://11348590078",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Tirar Texturas",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/StormHubRoblox/stormscripts/main/antlag"))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
 	Name = "Aimbot/Esp",
 	Icon = "rbxassetid://11819163504",
 	PremiumOnly = false
